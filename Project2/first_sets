@@ -1,0 +1,48 @@
+Program_declaration     *{ int float void 
+declaration_list        *{ int float void 
+declaration_list'       *{ int float void @ 
+declaration             *{ int float void 
+declaration'            *{ ( ; [
+var_declaration         *{ int float void 
+var_declaration'        *{ ; [ 
+type_specifier          *{ int float void 
+params                  *{ int float void 
+params'                 *{ ID @
+param_list              *{ int float void 
+param_list'             *{ , @ 
+param                   *{ int float void 
+param'                  *{ [ @ 
+compound_statement      *{ { 
+local_declarations      *{ int float void @ 
+local_declarations'     *{ int float void @ 
+statement_list          *{ ; ID ( NUM { if while return @ 
+statement_list'         *{ ; ID ( NUM { if while return @ 
+statement               *{ ; ID ( NUM { if while return 
+expression_statement    *{ ; ID ( NUM 
+expression_statement'   *{ ID ( NUM @ 
+selection_statement     *{ if 
+selection_statement'    *{ else @ 
+iteration_statement     *{ while 
+return_statement        *{ return 
+return_statement'       *{ ; ID ( NUM 
+return_statement''      *{ ID ( NUM @ 
+expression              *{ ID ( NUM 
+expression'             *{ ( [ = * / + - <= < > >= == != @
+expression''            *{ = * / + - <= < > >= == != @ 
+var                     *{ ID 
+var'                    *{ [ @ 
+simple_expression       *{ ( ID NUM 
+simple_expression'      *{ <= < > >= == !=  @ 
+relational_operator     *{ <= < > >= == != 
+additive_expression     *{ ( ID NUM 
+additive_expression'    *{ + - @ 
+additive_operator       *{ + - 
+term                    *{ ( ID NUM 
+term'                   *{ * / @ 
+multiplicative_operator *{ * / 
+factor                  *{ ( ID NUM 
+factor'                 *{ ( [ @ 
+call                    *{ ID 
+args                    *{ ID NUM ( @ 
+argument_list           *{ ID ( NUM 
+argument_list'          *{ , @ 

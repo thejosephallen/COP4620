@@ -1,0 +1,10 @@
+This program performs the functions of a parser for a C- language.
+
+Components:
+	p1.py - scanner from Project 1 that obtains a token stack
+	p2.py - driver code for Project 2 that calls p1 and other necessary functions
+	parse.py - program that does the actual parsing given the context of the problem
+	tools.py - contains functions to load in the grammar and first sets and compute the follow sets
+
+Input: source program to parse, grammar, first sets
+Output: ACCEPT or REJECT

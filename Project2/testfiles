@@ -1,0 +1,83 @@
+/*test*/
+void main(void){
+    int a[15];
+    int b;
+    int c;
+
+    b = c * x + a[b] / c;
+
+}
+
+/*
+int main(void){
+    {{{}}{int x;}}
+    {x(x);}
+    if (1) return x[1];
+    if (null) {
+        x = x; 1 + 2;
+        x + 1 + 2 / 3;
+    } else return 0;
+    while (0 <= x[2])
+        print(hello(world(x,x,z-z/z), x));
+}
+*/
+//-------------------------------------------------
+/*
+int gcd(int u, int v){
+    if (v == 0) return u;
+    else return gcd(v,u-u/v*v);
+    /* u-u/v*v == u mod v */
+}
+void main(void){
+    int x; int y;
+    x = input(); y = input();
+    output(gcd(x,y));
+}
+*/
+//------------------------------------------------
+/*
+int x[10];
+int minloc ( int a[], int low, int high ){
+    int i; int x; int k;
+    k = low;
+    x = a[low];
+    i = low + 1;
+    while ( i < high ){
+        if (a[i] < x){
+            x = a[i];
+            k = i;
+        }
+        i = i + 1;
+    }
+    return k;
+}
+
+void sort( int a[], int low, int high){
+    int i; int k;
+    i = low;
+    while ( i < high -1){
+        int t;
+        k = minloc(a,i,high);
+        t = a[k];
+        a[k] = a[i];
+        a[i] = t;
+        i = i + 1;
+    }
+}
+
+void main(void){
+    int i;
+    i = 0;
+    while (i < 10){
+        x[i] = input();
+        i = i + 1;
+    }
+    sort(x, 0, 10);
+    i = 0;
+    while (i < 10){
+        output(x[i]);
+        i = i + 1;
+    }
+}
+*/
+
